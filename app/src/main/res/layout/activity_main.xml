@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.panduanbelajarandroid.latihantextview.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif"
+        android:text="textview dengan jenis font serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/textview1"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:fontFamily="serif"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="textview dengan ukuran font 20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/textview2"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textview3"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="textview dengan bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/textview3"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textview4"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="textview menggunakan warna huruf"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_below="@id/textview4"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textview5"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="textview menggunakan perataan "/>
+
+</RelativeLayout>
